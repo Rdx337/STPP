@@ -1,4 +1,4 @@
- bks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+#SABBIR BHAI 
 
 try:
 	import os,requests,json,time,re,random,sys,uuid,string,subprocess
