@@ -172,16 +172,13 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f"""      
- ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀
-▓█████▄ ▓██▒   ▒████▄    ▒██▀ ▀█   ██▄█▒ 
-▒██▒ ▄██▒██░   ▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ 
-▒██░█▀  ▒██░   ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ 
-░▓█  ▀█▓░██████▒▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄
-░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒
-▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░
- ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░ 
- ░          ░  ░     ░  ░░ ░      ░  ░   
-      ░                  ░               
+ 
+███╗   ███╗██████╗     ███████╗ █████╗ ██████╗ ██████╗ ██╗██████╗     ███████╗██████╗     
+████╗ ████║██╔══██╗    ██╔════╝██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗    ██╔════╝██╔══██╗    
+██╔████╔██║██║  ██║    ███████╗███████║██████╔╝██████╔╝██║██████╔╝    ███████╗██████╔╝    
+██║╚██╔╝██║██║  ██║    ╚════██║██╔══██║██╔══██╗██╔══██╗██║██╔══██╗    ╚════██║██╔══██╗    
+██║ ╚═╝ ██║██████╔╝    ███████║██║  ██║██████╔╝██████╔╝██║██║  ██║    ███████║██║  ██║    
+╚═╝     ╚═╝╚═════╝     ╚══════╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝                                                                                             
 ══════════════════════════════════════════""")
 os.system('clear')
 banner()
@@ -231,7 +228,7 @@ def chk():
       
       print('\033[92m[•]\033[97mMY ID :  SR SABBIR  BHAI[ SR-SABBIR ]')
       print('\033[92m[•]\033[97mYOUR KEY SEND MY INBOX')
-      os.system('xdg-open https://www.facebook.com/profile.php?id=100089747571096&mibextid=ZbWKwL')')
+      os.system('xdg-open https://www.facebook.com/profile.php?id=100089747571096&mibextid=ZbWKwL')
       time.sleep(1) 
       sys.exit() 
   except: 
@@ -246,10 +243,10 @@ def Fire_Main():
     os.system("clear")
     banner()
     print(f"\x1b[1;91m[\x1b[1;92mA\x1b[1;91m] \x1b[1;97mFile Cloning")
-   # print(f"{oo(2)Pak Random Cloning")
-    #print(f"{oo(3)}Gmail Cloning")  
+   # print(f"{oo(2)PAK  RANDOM CLONING")
+    #print(f"{oo(3)}GMAIL CLONING")  
     print(f"\x1b[1;91m[\x1b[1;92mB\x1b[1;91m] \x1b[1;97mCreate File")
-    #print(f"{oo(0)}Exit")
+    #print(f"{oo(0)}EXIT")
     inpp = input(f"('?')Your Choice : ")
     if inpp == "A":
         F()
