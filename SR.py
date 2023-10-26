@@ -212,7 +212,7 @@ def chk():
   os.system('pip uninstall requests -y')
   os.system('pip install request')
   os.system('clear')
-  os.system('xdg-open https://www.facebook.com/profile.php?id=100089747571096&mibextid=ZbWKwL')')
+  os.system('xdg-open https://www.facebook.com/profile.php?id=100089747571096&mibextid=ZbWKwL')
   print(logo)
   print('\033[94m[•]\033[97mMY TOOLS ARE FREE')
   print('\033[94m[•]\033[97mYOUR KEY SEND MY INBOX')
